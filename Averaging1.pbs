@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -N Avg21_1                     # name of job
+#PBS -A GT-bgunter8                 # account to which job is charged, ex: GT-gburdell3
+#PBS -l nodes=2:ppn=8               # resources allocated, 2 node 8 processors
+#PBS -l pmem=4gb                    # memory per core
+#PBS -l walltime=8:00:00            # job will run at most 15 min
+#PBS -q embers                      # job is submitted to inferno queue
+#PBS -j oe                          # output and error is combined into the same file
+#PBS -o Avg21_1.out                 # output file is named gettingStarted.out
+#PBS -m abe
+#PBS -M abrown472@gatech.edu
+                                    # computation starts here
+cd $PBS_O_WORKDIR                   # changes into directory where script was submitted from
+echo "Started on `/bin/hostname`"   # prints name of compute node job was started on
+module load anaconda3/2021.05
+conda activate icesat_env
+python Averaging1.py
