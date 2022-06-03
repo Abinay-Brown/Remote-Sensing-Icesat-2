@@ -1,9 +1,9 @@
 # Remote-Sensing-Icesat-2
 Georgia Tech BS-MS Honors Research
 
-- Research Topic: Icesat-2 Land-Ice Analysis
+- Research Topic: Icesat-2 Land-Ice Analysis & Grace Gravimetry Correlation 
 
-- Topic Covered: Cluster Computing, Power Spectrum Analysis, 
+- Topics Covered: Cluster Computing, Power Spectrum Analysis, 
   Empirical Orthogonal Functions, Spatial & Temporal Modes
 
 - Faculty Advisor: Dr. Brian Gunter
