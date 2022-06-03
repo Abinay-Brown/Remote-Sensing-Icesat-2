@@ -1,2 +1,4 @@
 # Remote-Sensing-Icesat-2
-BS-MS Honors Research
+Georgia Tech BS-MS Honors Research
+Faculty Advisor: Dr. Brian Gunter
+
